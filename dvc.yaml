@@ -1,8 +1,7 @@
 stages:
   train:
-    cmd: python src/main.py
+    cmd: python main.py
     deps:
-    - src
     - ds
 params:
 - params.yaml
