@@ -1,6 +1,7 @@
-tensorflow==2.10.0
-dvc==3.33.3
-dvclive==3.4.1
+tensorflow==2.14.0
+dvc==3.30.1
+dvclive==3.3.1
+tensorflow-datasets==4.9.3
 dvc-gdrive==2.20.0
-scipy==1.10.0
+scipy==1.11.4
 cryptography==38.0.4
