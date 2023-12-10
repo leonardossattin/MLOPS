@@ -6,7 +6,9 @@ jobs: # what it will run
   steps:
   - uses: actions/checkout@v3 # pre-built step (checkout sourcecode)
   - uses: actions/setup-python@v4
-  - uses: iterative/setup-cml@v1
+    with:
+          python-version: '3.9'
+          cache: 'pip' # caching pip dependencies
   - uses: iterative/setup-dvc@v1
   - name: Train model
     env:
@@ -14,4 +16,5 @@ jobs: # what it will run
     run: | # custom commands
       pip install -r requirements.txt
       dvc pull
-      dvc repro 
+      dvc repro
+    - uses: iterative/setup-cml@v1
