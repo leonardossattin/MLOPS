@@ -7,7 +7,7 @@ from dvc.api import params_show
 
 class Training:
     def __init__(self, dvclive, params):
-        self.dvclive = dvclive
+
         self.params = params
         self.model_filepath = params['model_filepath']
         self.batch_size = params['batch_size']
