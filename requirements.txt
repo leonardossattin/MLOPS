@@ -5,3 +5,4 @@ tensorflow-datasets==4.9.3
 dvc-gdrive==2.20.0
 scipy==1.11.4
 cryptography==38.0.4
+pyopenssl
