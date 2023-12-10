@@ -6,8 +6,6 @@ jobs: # what it will run
   steps:
   - uses: actions/checkout@v3 # pre-built step (checkout sourcecode)
   - uses: actions/setup-python@v4
-    with:
-      python-version: '3.x'
   - uses: iterative/setup-cml@v1
   - uses: iterative/setup-dvc@v1
   - name: Train model
