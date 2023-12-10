@@ -3,3 +3,4 @@ dvc==3.33.3
 dvclive==3.4.1
 dvc-gdrive==2.20.0
 scipy==1.10.0
+cryptography==38.0.4
