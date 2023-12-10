@@ -5,3 +5,11 @@ stages:
     - ds
 params:
 - params.yaml
+plots:
+- dvclive/plots/metrics:
+    x: step
+artifacts:
+  model:
+    path: model.keras
+    type: model
+    desc: model
